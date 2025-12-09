@@ -26,7 +26,7 @@ public class SimpleControls : MonoBehaviour
             moveX = 1f;
         }
 
-        // Aplicar fuerza si hay input
+        // Aplicar fuerza si hay inputttt
         if (moveX != 0f)
         {
             Vector3 force = new Vector3(moveX * moveForce, 0, 0);
